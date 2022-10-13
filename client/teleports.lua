@@ -103,39 +103,79 @@ local teleports = {
 	[87] = {text = "Nightclub Basement", dest = {85, 86}, x = -1515.97, y = -2978.62, z = -80.89, h = 268.58},
 	[88] = {text = "Nightclub Garage", dest = {89}, x = -1618.58, y = -2998.95, z = -78.15, h = 0.79},
 	[89] = {text = "Nightclub Basement", dest = {88}, x = -1507.62, y = -3017.20, z = -79.24, h = 347.61},
-	-- Houses
-	[90] = {text = "3655 Wild Oats Drive", dest = {91}, x = -174.33, y = 497.53, z = 137.67, h = 190.77},
-	[91] = {text = "Exit House", dest = {90}, x = -174.90, y = 502.37, z = 137.42, h = 77.73},
-	[92] = {text = "Bedroom", dest = {93}, x = -167.59, y = 478.52, z = 133.84, h = 344.39},
-	[93] = {text = "Deck", dest = {92}, x = -167.33, y = 476.79, z = 133.90, h = 189.39},
-	[94] = {text = "2044 North Conker Ave", dest = {95}, x = 341.75, y = 437.58, z = 149.39, h = 122.12},
+	-- House 6095
+	[90] = {text = "6095 Wild Oats Drive", dest = {91}, x = -174.33, y = 497.53, z = 137.67, h = 190.77}, -- 6095
+	[91] = {text = "Exit House", dest = {90}, x = -174.90, y = 502.37, z = 137.42, h = 77.73}, --6095
+	[92] = {text = "Bedroom", dest = {93}, x = -167.59, y = 478.52, z = 133.84, h = 344.39}, --6095 
+	[93] = {text = "Deck", dest = {92}, x = -167.33, y = 476.79, z = 133.90, h = 189.39}, --6095
+	-- House 6078A
+	[94] = {text = "6078A North Conker Ave", dest = {95}, x = 341.75, y = 437.58, z = 149.39, h = 122.12},
 	[95] = {text = "Exit House", dest = {94}, x = 346.83, y = 440.71, z = 147.70, h = 301.65},
-	[96] = {text = "2045 North Conker Ave", dest = {97}, x = 373.55, y = 423.36, z = 145.91, h = 164.03},
+	[96] = {text = "6078A North Conker Ave", dest = {97}, x = 373.55, y = 423.36, z = 145.91, h = 164.03},
 	[97] = {text = "Exit House", dest = {96}, x = 373.55, y = 427.94, z = 145.68, h = 74.67},
-	[98] = {text = "3677 Whispymound Drive", dest = {99}, x = 117.26, y = 559.51, z = 184.30, h = 184.50},
+	[156] = {text = "Exit Balcony", dest = {157}, x = 370.12, y = 403.30, z = 145.50, h = 343.49},
+	[157] = {text = "Enter Balcony", dest = {156}, x = 369.81, y = 402.13, z = 145.51, h = 168.36},
+	[158] = {text = "Exit Balcony", dest = {159}, x = 370.15, y = 401.93, z = 142.11, h = 343.49},
+	[159] = {text = "Enter Balcony", dest = {158},x = 370.24, y = 403.28, z = 142.11, h = 168.36},
+	-- House 6078B
+	[160] = {text = "6078B North Conker Ave", dest = {161}, x = 373.55, y = 423.36, z = 145.91, h = 164.03},
+	[161] = {text = "Exit House", dest = {160},  x = 375.35, y = 427.39, z = 145.68, h = 74.26},
+	[162] = {text = "Exit Balcony", dest = {163}, x = 325.19, y = 426.48, z = 148.97, h = 301.30},
+	[163] = {text = "Enter Balcony", dest = {162}, x = 323.92, y = 425.82, z = 149.05, h = 121.24},
+	[164] = {text = "Exit Balcony", dest = {165}, x = 325.19, y = 426.40, z = 145.57, h = 301.30},
+	[165] = {text = "Enter Balcony", dest = {164}, x = 323.84, y = 425.77, z = 145.65, h = 121.24},
+	-- House 6084
+	[98] = {text = "6084 Whispymound Drive", dest = {99}, x = 117.26, y = 559.51, z = 184.30, h = 184.50},
 	[99] = {text = "Exit House", dest = {98}, x = 119.36, y = 564.57, z = 183.96, h = 0.65},
-	[100] = {text = "2862 Hillcrest Ave", dest = {101}, x = -682.05, y = 592.23, z = 145.39, h = 217.49},
+	[166] = {text = "Exit Balcony", dest = {167}, x = 120.90, y = 539.47, z = 183.90, h = 11.28},
+	[167] = {text = "Enter Balcony", dest = {166}, x = 121.38, y = 538.08, z = 183.90, h = 193.77},
+	[168] = {text = "Exit Balcony", dest = {169}, x = 121.15, y = 539.45, z = 180.50, h = 11.28},
+	[169] = {text = "Enter Balcony", dest = {168}, x = 121.38, y = 538.06, z = 180.50, h = 193.77},
+	-- House 6112
+	[100] = {text = "6112 Hillcrest Ave", dest = {101}, x = -682.05, y = 592.23, z = 145.39, h = 217.49},
 	[101] = {text = "Exit House", dest = {100}, x = -686.41, y = 596.59, z = 143.64, h = 46.78},
-	[102] = {text = "2868 Hillcrest Ave", dest = {103}, x = -758.81, y = 618.90, z = 144.15, h = 111.08},
+	[170] = {text = "Exit Balcony", dest = {171}, x = -667.31, y = 578.97, z = 144.97, h = 46.04},
+	[171] = {text = "Enter Balcony", dest = {170}, x = -666.38, y = 577.81, z = 144.99, h = 227.20},
+	[172] = {text = "Exit Balcony", dest = {173}, x = -667.23, y = 578.87, z = 141.57, h = 46.04},
+	[173] = {text = "Enter Balcony", dest = {172}, x = -666.38, y = 577.81, z = 141.58, h = 227.20},
+	-- House 6116
+	[102] = {text = "6116 Hillcrest Ave", dest = {103}, x = -758.81, y = 618.90, z = 144.15, h = 111.08},
 	[103] = {text = "Exit House", dest = {102}, x = -751.72, y = 621.05, z = 142.23, h = 289.15},
-	[104] = {text = "2874 Hillcrest Ave", dest = {105}, x = -859.85, y = 690.90, z = 152.86, h = 186.09},
+	[174] = {text = "Exit Balcony", dest = {175}, x = -778.15, y = 609.56, z = 143.80, h = 114.28},
+	[175] = {text = "Enter Balcony", dest = {174}, x = -776.67, y = 610.28, z = 143.73, h = 294.25},
+	[176] = {text = "Exit Balcony", dest = {177}, x = -778.07, y = 609.57, z = 140.40, h = 115.64},
+	[177] = {text = "Enter Balcony", dest = {176}, x = -776.68, y = 610.11, z = 140.33, h = 294.25},
+	-- House 6119
+	[104] = {text = "6119 Hillcrest Ave", dest = {105}, x = -859.85, y = 690.90, z = 152.86, h = 186.09},
 	[105] = {text = "Exit House", dest = {104}, x = -853.08, y = 695.89, z = 148.79, h = 8.33},
-	[106] = {text = "2113 Mad Wayne Thunder Drive", dest = {107}, x = -1289.82, y = 449.37, z = 97.90, h = 177.79},
+	[178] = {text = "Exit Balcony", dest = {179}, x = -776.66, y = 610.28, z = 143.73, h = 287.93},
+	[179] = {text = "Enter Balcony", dest = {178}, x = -778.16, y = 609.59, z = 143.80, h = 105.87},
+	[180] = {text = "Exit Balcony", dest = {181}, x = -776.64, y = 609.98, z = 140.33, h = 287.93},
+	[181] = {text = "Enter Balcony", dest = {180}, x = -778.16, y = 609.59, z = 140.40, h = 105.87},
+	-- House 6128B
+	[106] = {text = "6128B Mad Wayne Thunder Drive", dest = {107}, x = -1289.82, y = 449.37, z = 97.90, h = 177.79},
 	[107] = {text = "Exit House", dest = {106}, x = -1294.33, y = 454.89, z = 97.47, h = 5.19},
-	-- Apartments
-	[108] = {text = "1162 Power Street, Apt 3", dest = {109}, x = 346.50, y = -1012.36, z = -99.20, h = 3.66},
+	[182] = {text = "Exit Balcony", dest = {183}, x = -1288.33, y = 428.98, z = 97.50, h = 176.87},
+	[183] = {text = "Enter Balcony", dest = {182}, x = -1288.24, y = 427.18, z = 97.58, h = 183.04},
+	[184] = {text = "Exit Balcony", dest = {185}, x = -1288.10, y = 426.66, z = 94.17, h = 186.67},
+	[185] = {text = "Enter Balcony", dest = {184}, x = -1288.27, y = 428.89, z = 94.17, h = 3.41},
+	-- Apartment 7117
+	[108] = {text = "7117 Power Street, Apt 3", dest = {109}, x = 346.50, y = -1012.36, z = -99.20, h = 3.66},
 	[109] = {text = "Exit Apartment", dest = {108}, x = 292.25, y = -162.46, z = 64.62, h = 65.95},
-	[110] = {text = "0112 South Rockford Drive, Apt 13", dest = {111}, x = 265.97, y = -1003.11, z = -99.01, h = 21.68},
-	[111] = {text = "Exit Apartment", dest = {110}, x = -810.06, y = -978.83, z = 14.22, h = 122.47},
+	-- Apartment 8174
+	[110] = {text = "8174 Fantastic Pl, Apt 13", dest = {111},x = 346.50, y = -1012.36, z = -99.20, h = 3.66},
+	[111] = {text = "Exit Apartment", dest = {110}, x = 292.25, y = -162.46, z = 64.62, h = 65.95},
 	-- Clubhouses
-	[112] = {text = "Sandy Shores Clubhouse", dest = {113}, x = 1121.05, y = -3152.13, z = -37.07, h = 355.17},
-	[113] = {text = "Exit Clubhouse", dest = {112}, x = 1737.78, y = 3709.59, z = 34.14, h = 20.94},
-	[114] = {text = "Sandy Shores Clubhouse Garage", dest = {115}, x = 1110.14, y = -3164.25, z = -37.52, h = 356.00},
-	[115] = {text = "Exit Clubhouse", dest = {114}, x = 1725.67, y = 3708.79, z = 34.23, h = 22.44},
-	[116] = {text = "Paleto Bay Clubhouse", dest = {117}, x = 997.25, y = -3158.10, z = -38.91, h = 268.83},
-	[117] = {text = "Exit Clubhouse", dest = {116}, x = -38.47, y = 6419.88, z = 31.49, h = 231.76},
-	[118] = {text = "Paleto Bay Clubhouse Garage", dest = {119}, x = 998.82, y = -3164.34, z = -38.91, h = 266.85},
-	[119] = {text = "Exit Clubhouse", dest = {118}, x = -33.59, y = 6422.45, z = 31.43, h = 221.21},
+	[112] = {text = "Enter Lost MC Garage 1", dest = {113}, x = 1110.14, y = -3164.25, z = -37.52, h = 356.00},
+	[113] = {text = "Exit Lost MC Garage 1", dest = {112}, x = 965.63, y = -119.75, z = 74.35, h = 224.58},
+	[114] = {text = "Enter Lost MC Garage 2", dest = {115}, 1000.23, y = -3164.34, z = -38.91, h = 266.85},
+	[115] = {text = "Exit Lost MC Garage 2", dest = {114}, x = 971.26, y = -114.47, z = 74.35, h = 230.70},
+	-- City Penthouse 8067
+	[116] = {text = "8067 Penthouse", dest = {117}, x = -288.76, y = -722.35, z = 125.47, h = 254.34},
+	[117] = {text = "8067 Garage", dest = {116}, x = -304.99, y = -721.16, z = 28.03, h = 161.85},
+	-- Prison
+	[118] = {text = "Enter Prison", dest = {119},  x = 1705.03, y = 2592.61, z = 45.59, h = 284.76},
+	[119] = {text = "Exit Prison", dest = {118}, x = 1690.69, y = 2591.41, z = 45.91, h = 7.43},
 	-- Businesses
 	[120] = {text = "Cocaine Lockup", dest = {121}, x = 1088.66, y = -3187.66, z = -38.99, h = 177.66},
 	[121] = {text = "Exit Cocaine Lockup", dest = {120}, x = 51.92, y = 6486.31, z = 31.43, h = 318.31},
@@ -178,7 +218,68 @@ local teleports = {
 	[152] = {text = "Richards Majestic Helipad", dest = {50,51,52,53}, x = -903.17, y = -369.94, z = 136.28, h = 116.96},
 	[153] = {text = "Nightclub Office", dest = {154}, x = -1618.43, y = -3007.99, z = -75.20, h = 174.46},
 	[154] = {text = "Nightclub Basement", dest = {153}, x = -1507.66, y = -3024.46, z = -79.24, h = 177.89},
-	[155] = {text = "Del Perro Heights Garage", dest = {54,55,56,57}, x = -1456.37, y = -514.44, z = 31.58, h = 211.62}
+	[155] = {text = "Del Perro Heights Garage", dest = {54,55,56,57}, x = -1456.37, y = -514.44, z = 31.58, h = 211.62},
+	-- Casino
+	[186] = {text = "Enter Penthouse", dest = {187}, x = 969.34, y = 63.38, z = 112.55, h = 246.11},
+	[187] = {text = "Enter Roof Terrace", dest = {186}, x = 967.78, y = 63.67, z = 112.55, h = 61.74},
+	[188] = {text = "Casino Lobby", dest = {189,190}, x = 1085.37, y = 214.44, z = -49.20, h = 7.43},
+	[189] = {text = "Casino Penthouse", dest = {188,190}, x = 980.62, y = 56.60, z = 116.16, h = 7.43},
+	[190] = {text = "Casino Rooftop", dest = {188,189}, x = 964.87, y = 58.62, z = 112.55, h = 61.51},
+	[191] = {text = "Casino Helipad", dest = {192}, x = 959.62, y = 32.17, z = 120.23, h = 154.19},
+	[192] = {text = "Casino Management", dest = {191}, x = 1107.55, y = 243.20, z = -45.84, h = 276.41},
+	[193] = {text = "Exit Casino", dest = {194}, x = 935.98, y = 46.24, z = 81.10, h = 152.99},
+	[194] = {text = "Enter Casino", dest = {193}, x = 1089.61, y = 206.12, z = -49.00, h = 11.29},
+
+	[195] = {text = "Ground Floor", dest = {196,197,198}, x = 344.53, y = -586.23, z = 28.8, h = 258.46},
+	[196] = {text = "Basement", dest = {195,197,198}, x = 340.14, y = -584.85, z = 28.8, h = 85.55},
+	[197] = {text = "First Floor", dest = {195,196,198}, x = 332.15, y = -595.67, z = 43.28, h = 69.33},
+	[198] = {text = "Helipad", dest = {195,196,197}, x = 338.99, y = -583.95, z = 74.16, h = 259.56},
+
+--[[ CHANGES TO BE MADE FROM OLD SCRIPT VVV
+	-- Weapons Dealer --
+	[200] = {id = 200, x = -590.10, y = -1622.42, z = 33.01, h = 191.88, name = "Enter", destination = {201}},
+	[201] = {id = 201, x = -590.10, y = -1620.32, z = 33.01, h = 1357.28, name = "Enter", destination = {200}},
+	[196] = {id = 196, x = 969.34, y = 63.38, z = 112.55, h = 246.11, name = "Enter Penthouse", destination = {204}},
+	[204] = {id = 204, x = 967.78, y = 63.67, z = 112.55, h = 61.74, name = "Enter Roof Terrace", destination = {196}},
+	[190] = {id = 190, x = 1085.37, y = 214.44, z = -49.20, h = 7.43, name = "Casino Lobby", destination = {212,191,197}},
+	[212] = {id = 212, x = 1545.24, y = 254.34, z = -46.01, h = 16.43, name = "Casino Club", destination = {190,191,197}},
+	[191] = {id = 191, x = 980.62, y = 56.60, z = 116.16, h = 7.43, name = "Casino Penthouse", destination = {212,190,197}},
+	[197] = {id = 197, x = 964.87, y = 58.62, z = 112.55, h = 61.51, name = "Casino Roof Top", destination = {212,190,191}},
+	[199] = {id = 199, x = 959.62, y = 32.17, z = 120.23, h = 154.19, name = "Casino Helipad", destination = {207}},
+	[207] = {id = 207, x = 1107.55, y = 243.20, z = -45.84, h = 276.41, name = "Casino Management Office", destination = {199}},
+	[210] = {id = 210, x = 1119.45, y = 267.14, z = -51.04, h = 181.35, name = "Casino Management Ground Floor", destination = {211}},
+	[211] = {id = 211, x = 1119.46, y = 267.19, z = -45.84, h = 182.96, name = "Casino Management 1st Floor", destination = {210}},
+	[205] = {id = 205, x = 935.98, y = 46.96, z = 81.10, h = 152.99, name = "Exit Casino", destination = {206}},
+	[206] = {id = 206, x = 1089.61, y = 206.12, z = -49.00, h = 11.29, name = "Enter Casino", destination = {205}},
+	[208] = {id = 208, x = 1121.11, y = 214.73, z = -49.44, h = 103.71, name = "Exit Cashier", destination = {209}},
+	[209] = {id = 209, x = 1120.81, y = 221.87, z = -49.44, h = 93.28, name = "Enter Cashier", destination = {208}},
+	
+	-- Morgue --
+	[213] = {id = 213, x = 295.54, y = -1448.88, z = 29.97, h = 327.56, name = "Exit Morgue", destination = {214}},
+	[214] = {id = 214, x = 275.30, y = -1361.19, z = 24.54, h = 47.69, name = "Enter Morgue", destination = {213}},
+
+	-- Yachts
+	[215] = {id = 215, x = -3523.80, y = 738.41, z = 5.89, h = 89.63, name = "Enter Yacht", destination = {216}}, -- Chumash
+	[216] = {id = 216, x = -3499.84, y = 738.58, z = 5.89, h = 91.96, name = "Exit Yacht", destination = {215}}, -- Chumash
+	[217] = {id = 217, x = 50.59, y = -3255.65, z = 5.89, h = 357.05, name = "Exit Yacht", destination = {218}}, --10075 ls
+	[218] = {id = 218, x = 50.66, y = -3279.54, z = 5.89, h = 189.35, name = "Enter Yacht", destination = {217}}, -- 10075 ls
+	[219] = {id = 219, x = -1710.45, y = 5324.15, z = 5.89, h = 259.04, name = "Exit Yacht", destination = {220}}, -- 1106 Chilliad 
+	[220] = {id = 220, x = -1734.40, y = 5328.32, z = 5.89, h = 84.45, name = "Enter Yacht", destination = {219}}, -- 1106 Chilliad
+
+	-- Recording Studio
+	[221] = {id = 221, x = -840.35, y = -231.84, z = 37.23, h = 308.98, name = "Exit Record A Studios", destination = {222}}, -- 1106 Chilliad
+	[222] = {id = 222, x = -1021.72, y = -92.25, z = -99.4, h = 7.15, name = "Enter Record A Studios", destination = {221}}, -- 1106 Chilliad
+
+	-- 7255 The Contract Office 1
+	[223] = {id = 223, x = -1032.70, y = -421.54, z = 39.62, h = 23.30, name = "Lombard Office Lobby", destination = {224,225}}, -- 7255 Rockford Hills
+	[224] = {id = 224, x = -1033.06, y = -434.80, z = 63.86, h = 301.65, name = "Main Office", destination = {223,225}}, -- 7255 Rockford Hills
+	[225] = {id = 225, x = -1031.89, y = -438.25, z = 72.46, h = 295.11, name = "Office Apartment", destination = {223,224}}, -- 7255 Rockford Hills
+	
+	-- 7255 The Contract Office 2
+	[226] = {id = 226, x = -1032.70, y = -421.54, z = 39.62, h = 23.30, name = "Lombard Office Lobby", destination = {227,228}}, -- 7255 Rockford Hills
+	[227] = {id = 227, x = -1033.06, y = -434.80, z = 63.86, h = 301.65, name = "Main Office", destination = {226,228}}, -- 7255 Rockford Hills
+	[228] = {id = 228, x = -1031.89, y = -438.25, z = 72.46, h = 295.11, name = "Office Apartment", destination = {226,227}}, -- 7255 Rockford Hills
+	]]
 }
 
 -- Don't edit below this line.
