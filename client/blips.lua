@@ -59,11 +59,11 @@ local blips = {
 	--{title="Yacht", colour=13, id=455, x=-2043.97, y=-1031.58, z=11.98},
 	--{title="Yacht", colour=13, id=455, x=-1363.72, y=6734.10, z=2.44},
 	-- Fight Club --
-	{title="Fight Club", colour=57, id=311, x=928.86, y=-1787.01, z=30.66},
+	--{title="Fight Club", colour=57, id=311, x=928.86, y=-1787.01, z=30.66},
 	-- Comedy Club --
 	--{title="Comedy Club", colour=61, id=102, x=-430.05, y=261.44, z=83.01},
 	-- Courthouse --
-	{title="Courthouse", colour=0, id=419, x=230.00, y=-390.68, z=46.31},
+	--{title="Courthouse", colour=0, id=419, x=230.00, y=-390.68, z=46.31},
 
 }
 
