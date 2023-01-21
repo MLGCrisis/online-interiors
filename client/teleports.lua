@@ -235,6 +235,10 @@ local teleports = {
 	[197] = {text = "First Floor", dest = {195,196,198}, x = 332.15, y = -595.67, z = 43.28, h = 69.33},
 	[198] = {text = "Helipad", dest = {195,196,197}, x = 338.99, y = -583.95, z = 74.16, h = 259.56},
 
+	-- Bahama Mamas
+	[199] = {text = "Bar Front", dest = {200}, x = -1385.29, y = -606.63, z = 30.32, h = 123.47},
+	[200] = {text = "Bar Back", dest = {199}, x = -1371.55, y = -626.02, z = 30.82, h = 120.81},
+	
 --[[ CHANGES TO BE MADE FROM OLD SCRIPT VVV
 	-- Weapons Dealer --
 	[200] = {id = 200, x = -590.10, y = -1622.42, z = 33.01, h = 191.88, name = "Enter", destination = {201}},
