@@ -174,8 +174,8 @@ local teleports = {
 	[116] = {text = "8067 Penthouse", dest = {117}, x = -288.76, y = -722.35, z = 125.47, h = 254.34},
 	[117] = {text = "8067 Garage", dest = {116}, x = -304.99, y = -721.16, z = 28.03, h = 161.85},
 	-- Prison
-	[118] = {text = "Enter Prison", dest = {119},  x = 1705.03, y = 2592.61, z = 45.59, h = 284.76},
-	[119] = {text = "Exit Prison", dest = {118}, x = 1690.69, y = 2591.41, z = 45.91, h = 7.43},
+	--[118] = {text = "Enter Prison", dest = {119},  x = 1705.03, y = 2592.61, z = 45.59, h = 284.76},
+	--[119] = {text = "Exit Prison", dest = {118}, x = 1690.69, y = 2591.41, z = 45.91, h = 7.43},
 	-- Businesses
 	[120] = {text = "Cocaine Lockup", dest = {121}, x = 1088.66, y = -3187.66, z = -38.99, h = 177.66},
 	[121] = {text = "Exit Cocaine Lockup", dest = {120}, x = 51.92, y = 6486.31, z = 31.43, h = 318.31},
