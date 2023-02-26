@@ -239,7 +239,7 @@ local teleports = {
 	[199] = {text = "Bar Front", dest = {200}, x = -1385.29, y = -606.63, z = 30.32, h = 123.47},
 	[200] = {text = "Bar Back", dest = {199}, x = -1371.55, y = -626.02, z = 30.82, h = 120.81},
 
-	-- Bahama Mamas
+	-- Triads
 	[201] = {text = "Basement", dest = {202,203}, x = -817.86, y = -709.56, z = 23.78, h = 89.68}, 
 	[202] = {text = "First Floor", dest = {201,203}, x = -817.57, y = -709.57, z = 28.06, h = 97.80},
 	[203] = {text = "Second Floor", dest = {201,202}, x = -817.80, y = -709.64, z = 32.34, h = 87.69},
