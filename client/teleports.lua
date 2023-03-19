@@ -97,7 +97,7 @@ local teleports = {
 	[82] = {text = "ExitLow-End Garag", dest = {81}, x = 639.16, y = 2774.31, z = 41.98, h = 4.00},
 	-- Nightclub
 	[83] = {text = "Nightclub", dest = {84}, x = -1569.37, y = -3017.17, z = -74.41, h = 0.32},
-	[84] = {text = "Exit Nightclub ", dest = {83}, x = 346.02, y = -977.81, z = 29.37, h = 277.02},
+	[84] = {text = "Exit Nightclub ", dest = {83}, x = 3.99, y = 220.47, z = 107.77, h = 250.67},
 	[85] = {text = "Exit Nightclub", dest = {86,87}, x = 333.28, y = -997.71, z = 29.12, h = 186.64},
 	[86] = {text = "Nightclub Garage", dest = {85,87}, x = -1637.61, y = -2989.78, z = -77.54, h = 261.02},
 	[87] = {text = "Nightclub Basement", dest = {85, 86}, x = -1515.97, y = -2978.62, z = -80.89, h = 268.58},
